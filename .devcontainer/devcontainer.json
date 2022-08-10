@@ -1,5 +1,5 @@
 {
-	"name": "diagrams",
+	"name": "vscode-python-template",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."
