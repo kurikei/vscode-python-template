@@ -1,0 +1,10 @@
+{
+	"name": "vscode-python-template",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"mounts": [
+		"source=projectname-bashhistory,target=/commandhistory,type=volume"
+	]
+}
