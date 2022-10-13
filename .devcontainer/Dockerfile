@@ -1,4 +1,4 @@
-FROM python:3.10.6
+FROM python:3.10.8
 RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhistory/.bash_history" \
     && echo $SNIPPET >> "/root/.bashrc"
 COPY ./pyproject.toml /
